@@ -1,0 +1,60 @@
+.containerone {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-gap: 3px;
+}
+
+.redblock {
+    background-color: red;
+    grid-column: 1/3;   
+}
+
+.blueblock {
+    background-color: blue;
+    grid-column: 3/6;
+}
+
+.greenblock {
+    background-color: darkgreen;
+    grid-column: 1/2;
+}
+
+.purpleblock {
+    background-color: darkviolet;
+    grid-column: 2/6;
+}
+
+.yellowblock {
+    background-color: goldenrod;
+    grid-column: 1/6;
+}
+
+.containertwo {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 3px;
+}
+
+.redtwo {
+    background-color: red;
+    grid-column: 1/5;
+      
+}
+
+.bluetwo {
+    background-color: blue;
+    grid-column: 1/3;
+    grid-row: 2/5;
+    
+}
+
+.greentwo {
+    background-color: darkgreen;
+    grid-column: 3/5;
+}
+    
+
+.purpletwo {
+    background-color: darkviolet;
+}
+    
